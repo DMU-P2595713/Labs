@@ -1,0 +1,27 @@
+img {
+  max-width: 20%;
+  border-radius: 10px;
+  padding:3px
+}
+p, h1, h2, ol {
+  font-family:sans-serif;
+  padding:10px;
+  color:white
+}
+
+header {
+  text-align:center;
+  background-color:blue;
+  margin:-10px;
+  padding:5px
+}
+h1 {
+  border: 5px solid;
+  border-color:black
+}
+h2 {
+  border: 4px dotted blue;
+}
+body {
+  background-color: teal
+}
