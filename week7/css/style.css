@@ -1,0 +1,23 @@
+body {
+  background-image: url("../image/img/background.jpg");
+  background-size: cover;
+  font-family:sans-serif
+}
+header, footer{
+  background-color: grey;
+  color: white;
+}
+header,section,footer{
+  margin:20px;
+  padding: 10px;
+}
+img {
+  width: 100%;
+  border-radius:5px
+}
+section{
+  background-color: white;
+}
+.label {
+  font-weight:bold;
+}
