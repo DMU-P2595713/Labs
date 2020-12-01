@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  background-color: black;
+  color: blue;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.square {
+  width:50px;
+  height:50px;
+  background-color: blue;
+  margin: auto;
+  margin:3px
+}
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div {
+  display: block;
+}
