@@ -1,0 +1,18 @@
+img {
+  width: 100%;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: green;
+  margin:-8px;
+  height: 90px;
+  line-height: 45px;
+  text-align: center;
+  position: fixed;
+  width:100%
+}
+div {
+  height:90px
+}
