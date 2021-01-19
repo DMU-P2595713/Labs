@@ -1,0 +1,23 @@
+.menu {
+  color: white;
+  font-family: arial;
+  font-size: 1cm;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  overflow: hidden;
+  transition: background-color 0.3s, width 0.3s, height 0.3s;
+}
+.item {
+  pointer-events: none;
+  opacity:0
+}
+.menu.out{
+  width:70%;
+  height: 100vh;
+  background-color: crimson;
+}
+.menu.out .item{
+  pointer-events: all;
+  opacity:1;
+}
