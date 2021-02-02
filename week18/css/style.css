@@ -1,0 +1,14 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+}
+img {
+  width:100px;
+}
+#Trump {
+  display: inline-block;
+  transition: transform 0.2s;
+}
