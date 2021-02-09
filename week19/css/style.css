@@ -1,0 +1,34 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+}
+.numbers {
+  justify-content: space-around;
+  display: flex;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+img {
+  width:100px;
+}
+#Trump {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+#gameover {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: red;
+  background-image: none;
+  display:none;
+}
+
+#gameover p {
+  font-size: 400%;
+  text-align: center;
+}
